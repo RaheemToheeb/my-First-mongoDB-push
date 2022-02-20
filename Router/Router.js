@@ -1,20 +1,20 @@
 // Router consume the controller using express.Router()
 
-// const express = require('express')
-// const route = express.Router()
-// const {postUser}=require("../controller/controller")
+const express = require('express')
+const route = express.Router()
+const {postUser}=require("../controller/controller")
 
-// route.post("/post",postUser)
+route.post("/post",postUser)
 
-// module.exports=route
+module.exports=route
 
-// const express = require('express')
-// const route = express.Router()
-// const {findAll}=require("../controller/controller")
+const express = require('express')
+const route = express.Router()
+const {findAll}=require("../controller/controller")
 
-// route.get("/get",findAll)
+route.get("/get",findAll)
 
-// module.exports=route
+module.exports=route
 
 
 const express = require('express')
